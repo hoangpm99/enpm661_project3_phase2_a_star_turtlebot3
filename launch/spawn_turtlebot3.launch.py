@@ -26,7 +26,7 @@ def generate_launch_description():
     TURTLEBOT3_MODEL = 'waffle'
     model_folder = 'turtlebot3_' + TURTLEBOT3_MODEL
     urdf_path = os.path.join(
-        get_package_share_directory('turtlebot3_project3'),
+        get_package_share_directory('project3_phase2'),
         'models',
         model_folder,
         'model.sdf'

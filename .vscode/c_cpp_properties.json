@@ -6,7 +6,7 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/hoangpm/enpm661_ws/install/turtlebot3_project3/include/**",
+        "/home/hoangpm/enpm661_ws/install/project3_phase2/include/**",
         "/home/hoangpm/enpm661_ws/install/project3_phase2/include/**",
         "/home/hoangpm/final_ws/install/ros2_aruco_interfaces/include/**",
         "/home/hoangpm/final_ws/install/final_project/include/**",
@@ -18,7 +18,7 @@
         "/home/hoangpm/rwa3_ws/install/mage_msgs/include/**",
         "/opt/ros/galactic/include/**",
         "/home/hoangpm/enpm661_ws/src/project3_phase2/include/**",
-        "/home/hoangpm/enpm661_ws/src/turtlebot3_project3/include/**",
+        "/home/hoangpm/enpm661_ws/src/project3_phase2/include/**",
         "/usr/include/**"
       ],
       "name": "ROS",

@@ -26,7 +26,7 @@ from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    TURTLEBOT3_MODEL = os.environ['TURTLEBOT3_MODEL']
+    TURTLEBOT3_MODEL = 'waffle'
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     urdf_file_name = 'turtlebot3_' + TURTLEBOT3_MODEL + '.urdf'
@@ -34,7 +34,7 @@ def generate_launch_description():
     print('urdf_file_name : {}'.format(urdf_file_name))
 
     urdf_path = os.path.join(
-        get_package_share_directory('turtlebot3_project3'),
+        get_package_share_directory('project3_phase2'),
         'urdf',
         urdf_file_name)
 

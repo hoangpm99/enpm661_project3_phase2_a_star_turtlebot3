@@ -54,7 +54,7 @@ class TurtlebotNavigator(Node):
      
         self.rpm1 = 800.0
         self.rpm2 = 1200.0
-        self.clearance = 50.0/SCALE_FACTOR
+        self.clearance = 5.0/SCALE_FACTOR
         
         # Updated to create Node instances with float values
         self.start_node = PathNode((500 / float(SCALE_FACTOR), 1000 / float(SCALE_FACTOR), 0))

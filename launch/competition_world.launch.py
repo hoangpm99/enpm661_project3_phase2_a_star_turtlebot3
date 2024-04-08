@@ -25,7 +25,7 @@ from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 def generate_launch_description():
-    launch_file_dir = os.path.join(get_package_share_directory('turtlebot3_project3'), 'launch')
+    launch_file_dir = os.path.join(get_package_share_directory('project3_phase2'), 'launch')
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
 
     use_sim_time = LaunchConfiguration('use_sim_time', default='true')
@@ -33,7 +33,7 @@ def generate_launch_description():
     y_pose = LaunchConfiguration('y_pose', default='0.0')
 
     world = os.path.join(
-        get_package_share_directory('turtlebot3_project3'),
+        get_package_share_directory('project3_phase2'),
         'worlds',
         'competition_world.world'
     )
@@ -69,7 +69,7 @@ def generate_launch_description():
     )
     
     turtlebot_navigator_cmd = Node(
-        package='turtlebot3_project3',
+        package='project3_phase2',
         executable='turtlebot_navigator.py',
         name='turtlebot_navigator',
         output='screen',
