@@ -3,6 +3,12 @@ Path Planning with A* Algorithm
 This project implements the A* algorithm for path planning in a 2D grid map, designed to find the optimal path between a given start and goal node.
 
 --------------------------------------------------------------------------------
+Links to Simulation Videos
+--------------------------------------------------------------------------------
+A*  : https://drive.google.com/file/d/1z3lVAr6qC9Y1uKTheeuNKkB0Fvgj0O9m/view?usp=drive_link
+ROS : https://drive.google.com/file/d/1fTxK_MeuEET_WmiluBu2sxh0t0QkiofZ/view?usp=drive_link
+
+--------------------------------------------------------------------------------
 Authors
 --------------------------------------------------------------------------------
 Hoang Pham: hmp61595/ 120230301
