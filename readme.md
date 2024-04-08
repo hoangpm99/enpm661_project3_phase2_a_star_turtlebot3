@@ -37,10 +37,12 @@ Source ROS (Package will be identified)
 source install/setup.bash
 ```
 
-Testing the A* Algorithm
+## Testing the A* Algorithm
+
 To test the A* algorithm specifically, use the a_star_hoang_fazil_scaled script. After launching the script, you will need to manually enter the RPM1, RPM2, clearance, start and goal node coordinates when prompted. The script will run the A* algorithm and display a window visualizing the explored nodes and the optimal path. Ensure you wait for the visual window to open to view the algorithm's results.
 
-Running the Code
+## Running the Code
+
 After making any changes to the code or for the first run, ensure you build the package:
 
 ```sh
