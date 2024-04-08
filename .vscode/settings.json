@@ -1,0 +1,26 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/hoangpm/enpm661_ws/install/project3_phase2/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/ros2_aruco/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/final_project/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/mage_msgs/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/ros2_aruco/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/mage_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hoangpm/enpm661_ws/install/project3_phase2/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/ros2_aruco/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/final_project/lib/python3.8/site-packages",
+        "/home/hoangpm/final_ws/install/mage_msgs/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/ros2_aruco_interfaces/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/ros2_aruco/lib/python3.8/site-packages",
+        "/home/hoangpm/rwa3_ws/install/mage_msgs/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
